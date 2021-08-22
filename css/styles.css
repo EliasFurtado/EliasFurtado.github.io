@@ -1,0 +1,413 @@
+.header-primary-color{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.header-secondary-color{
+    background-color: #c10202;
+}
+
+.contact-font-color {
+    color: #ffdd8a;
+}
+
+p {
+    font-family: 'Roboto thin';
+}
+
+h1 {
+    font-family: 'Roboto thin';
+}
+
+button {
+    font-family: 'PT Sans Narrow bold';
+    font-weight: bold;
+}
+
+label {
+    font-family: 'Roboto thin';
+    color: white;
+}
+
+.contact {
+    height: auto;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+.navbar {
+    font-family: 'Georgia';
+    font-weight: bold;
+    text-align: center;
+    font-size: .8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar p{
+    margin-top: 0.625rem;
+}
+
+.logo{
+    font-size: 1.875rem;
+    margin-right: 4rem;
+}
+
+.menu li {
+    margin-top: 1rem;
+    margin-bottom: 16.1px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.menu li button {
+
+    text-align:center;
+}
+
+.search-icon {
+    color: #ff0000;
+}
+
+.contact-item {
+    margin: 0px 0.78rem 0px 0.78rem;
+    
+}
+
+#slider { 
+    position: relative;
+    background: url(/img/background.jpg);
+    object-fit: cover;
+    font-family: 'Roboto Thin';
+    color: white;
+    height: 450px;
+}
+
+#slider::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.orçamento-btn {
+    background-color: #ffdd8a;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+@media (min-width: 1330px){
+    #slider{
+        height: 450px;
+    }
+
+    #carousel-container{
+        width: 800px;
+        display: flex;
+        align-items:flex-end;
+        text-align: end;
+        margin-left: 32%;
+    }
+
+    #carousel-container h1 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+
+    .orçamento-btn {
+        width: 350px;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+}
+
+.option-card {
+    font-family: 'Roboto Thin';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    color: #ffdd8a;
+    background-color: #231f20;
+}
+
+.option-card-btn {
+    width: 200px;
+    height: 52px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+}
+
+.option-card-desk {
+    font-family: 'Roboto Thin';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    height: 180px;
+    color: #ffdd8a;
+    background-color: #231f20;
+}
+
+#product-section{
+    background-color: #ebebeb;
+}
+
+.product-title {
+    font-family: 'Roboto thin';
+    color: #555555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.product-card-title {
+    font-family: 'Roboto thin';
+    color: #231f20;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-off {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Bold';
+    font-weight: bold;
+    font-size: .8rem;
+    background-color: #f14343;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    bottom: 380px;
+    right: 115px;
+    border-radius: 50%;
+    
+}
+
+.product-off p {
+    padding: 0;
+    margin: 0;
+}
+
+.product-card-img {
+    border: solid 1px #e1e1e1;
+    height: 300px;
+}
+
+
+
+.product-price {
+    font-family: 'Open Sans Bold';
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.product-specs {
+    color: #aaaaaa;
+    font-size: .7rem;
+    margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+    .product-card-title{
+        font-family: 'Roboto thin';
+        color: #231f20;
+        padding-top: 70px;
+        padding-bottom: 90px;
+        text-align: center;
+    }
+
+    .product-off {
+        bottom: 420px;
+        right: 115px;
+    }
+
+    .product-card {
+        width: 25%;
+    }
+}
+
+#whatsapp-img {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+.whatsapp-img-background {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #d1e8c1;
+    border-radius: 50%;
+}
+
+.whatsapp-img-background::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #e3f3d8;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+}
+
+.whatsapp-btn {
+    background-color: #73bc45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.whatsapp-info p {
+    font-family: 'Roboto thin';
+    color: #231f20;
+}
+
+@media (min-width: 1024px) {
+    #whatsapp-container {
+        height: 300px;
+    }
+
+    #whatsapp-img {
+        width: 120px;
+        height: 120px;
+        z-index: 1;
+    }
+
+    .whatsapp-img-background {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        background-color: #d1e8c1;
+        border-radius: 50%;
+    }
+    
+    .whatsapp-img-background::before {
+        content: '';
+        width: 150px;
+        height: 150px;
+        background-color: #e3f3d8;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+    }
+}
+
+#form-background {
+    position: relative;
+    height: 500px;
+}
+
+#form-background::before {
+    content: '';
+    background-image: url(/img/cadastro_background.jpg);
+    filter: brightness(10%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.text-red {
+    color: red;
+}
+
+.form-btn {
+    border: solid 1px #fff;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    #form-background {
+        height: 700px;
+    }
+}
+
+#footer {
+    font-family: 'Roboto thin';
+    font-size: .8rem;
+    background-color: #231f20;
+    color: white;
+    padding: 20px;
+    
+}
+
+#footer i {
+    cursor: pointer;
+}
+
+.address p{
+    margin: 1px;
+    padding: 0;
+}
+
+.logotipo {
+    margin-bottom: 20px;
+}
+
+#copy-footer {
+    background-color: #100e0f;
+    font-size: .7rem;
+    color: #ebebeb;
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+}
+
+.whatsapp-img {
+    padding: 20px;
+    position: relative;
+
+}
+
+@media (min-width: 768px){
+    .whatsapp-img {
+        bottom: -90px;
+        right: 1200px;
+    }
+}
+
+.chat-button {
+    position: relative;
+    background-color: #67bd31;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow-y: visible;
+    bottom: 25px;
+}
